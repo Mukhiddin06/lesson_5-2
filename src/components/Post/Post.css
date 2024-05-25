@@ -1,0 +1,107 @@
+.post-section{
+    background-color: #EDF7FA;
+    padding-top: 8px;
+    padding-bottom: 32px;
+  }
+  .post{
+    max-width: 856px;
+    margin: 0 auto;
+  }
+  .recent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .recent-title{
+    color: #21243D;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; 
+  }
+  .recent-link{
+    color: #00A8CC;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .card-wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+  .card{
+    width: 418px;
+    padding: 23px 24px 21px 20px;
+    border-radius: 4px;
+    background-color: #FFF;
+  }
+  .card-title{
+    color: #21243D;
+    font-family: Heebo;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 17px;
+  }
+  .card-time{
+    color: #21243D;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+  }
+  .card-about{
+    color: #21243D;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 1.5px solid #21243D;
+  }
+  .card-text{
+    color: #21243D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  @media (max-width:800px){
+    .post-section{
+      padding-top: 5px;
+      padding-bottom: 38px;
+    }
+    .recent{
+      flex-direction: column;
+      text-align: center;
+    }
+    .recent-title{
+      font-size: 18px;
+      line-height: 60px; 
+    }
+    .recent-link{
+      display: none;
+    }
+    .card-wrapper{
+      flex-direction: column;
+      align-items: center;
+      gap: 17px;
+    }
+    .card{
+      width: 354px;
+      padding: 12px 19px 20px 20px;
+      border-radius: 4px;
+      background-color: #FFF;
+    }
+    .card-time{
+      font-size: 16px;
+    }
+    .card-about{
+      font-size: 16px;
+    }
+  }
